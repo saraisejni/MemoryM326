@@ -9,8 +9,8 @@ public class Images {
         String path = null;
 
         switch (cardcolor) {
-            case GREEN :{
-                path = "../bilder/green.jpg";
+            case GREEN : {
+                path = "../bilder/orange.jpg";
             }
             case BROWN : {
                 path = "../bilder/brown.jpg";

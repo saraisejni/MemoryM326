@@ -140,23 +140,23 @@ public class GameScene extends Scene {
 
     private void drawScore(GraphicsContext gc) {
         gc.setFill(Color.rgb(255, 255, 255));
-        gc.setFont(new Font("Goudy Old Style", 20));
-        gc.fillText("Score: " + scorePlayerOne, 50, 100);
+        gc.setFont(new Font("Jaldi", 23));
+        gc.fillText("score: " + scorePlayerOne, 50, 100);
         gc.setFill(Color.rgb(255, 255, 255));
-        gc.setFont(new Font("Goudy Old Style", 20));
-        gc.fillText("Score: " + scorePlayerTwo, 620, 100);
+        gc.setFont(new Font("Jaldi", 23));
+        gc.fillText("score: " + scorePlayerTwo, 620, 100);
     }
 
     private void drawHeader(GraphicsContext gc) {
         gc.setFill(Color.rgb(255, 255, 255));
-        gc.setFont(new Font("Jaldi", 27));
-        gc.fillText("timer", 260, 60);
+        gc.setFont(new Font("Jaldi", 23));
+        gc.fillText("timer", 365, 60);
         gc.setFill(Color.rgb(255, 255, 255));
-        gc.setFont(new Font("Jaldi", 27));
-        gc.fillText("Spieler 1", 50, 60);
+        gc.setFont(new Font("Jaldi", 23));
+        gc.fillText("player 1", 50, 60);
         gc.setFill(Color.rgb(255, 255, 255));
-        gc.setFont(new Font("Jaldi", 27));
-        gc.fillText("Spieler 2", 620, 60);
+        gc.setFont(new Font("Jaldi", 23));
+        gc.fillText("player 2", 620, 60);
 
     }
 }
