@@ -11,28 +11,38 @@ public class Images {
         switch (cardcolor) {
             case GREEN :{
                 path = "../bilder/green.jpg";
+                break;
             }
             case BROWN : {
                 path = "../bilder/brown.jpg";
+                break;
             }
             case PURPLE : {
                 path = "../bilder/purple.jpg";
+                break;
             }
             case DARKBLUE : {
                 path = "../bilder/darkblue.jpg";
+                break;
             }
             case YELLOW : {
                 path = "../bilder/yellow.jpg";
+                break;
             }
             case LIGHTBLUE : {
                 path = "../bilder/lightblue.jpg";
+                break;
             }
             case RED : {
                 path = "../bilder/red.jpg";
+                break;
             }
             case ORANGE : {
                 path = "../bilder/orange.jpg";
+                break;
             }
+
+
         }
         if (path == null) {
             throw new RuntimeException("No image found for: " + cardcolor);
