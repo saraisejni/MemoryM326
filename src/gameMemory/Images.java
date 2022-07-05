@@ -9,7 +9,7 @@ public class Images {
         String path = null;
 
         switch (cardcolor) {
-            case GREEN :{
+            case GREEN : {
                 path = "../bilder/green.jpg";
                 break;
             }
@@ -41,8 +41,6 @@ public class Images {
                 path = "../bilder/orange.jpg";
                 break;
             }
-
-
         }
         if (path == null) {
             throw new RuntimeException("No image found for: " + cardcolor);
